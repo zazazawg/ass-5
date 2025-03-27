@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="nord">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            background-color: #f4f7ff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="container mx-auto pt-6 pb-6 ">
+            <div class="navbar bg-base-100 bg-white rounded-2xl p-6 ">
+                <div class="flex-1 ">
+                    <div class="flex items-center ">
+                        <img class="" src="assets/logo.png" alt="">
+                        <a class="text-4xl ml-3">Dev<strong>Board</strong></a>
+                    </div>
+                </div>
+                <div class="flex-none">
+                    <div class="flex gap-2">
+                        <button class="btn bg-[#3752FD] text-white"><a href="index.html">Back to Desk</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="container mx-auto pb-16">
+        <section>
+            <h1 class="text-3xl font-medium mt-2 mb-2 text-center">Blogs</h1>
+            <div class="collapse bg-base-100 border border-base-300 mb-2">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold"> What are the different ways to select an element in the DOM?
+                </div>
+                <div class="collapse-content text-sm">In JavaScript, there are multiple ways to select elements from the
+                    DOM (Document Object Model). Here are the most common methods:
+                    <br>
+                    <ul>
+                        <li>Selecting by ID</li>
+                        <li>Selecting by Class Name</li>
+                        <li>Selecting by Tag Name</li>
+                        <li>Selecting Using Query Selector</li>
+                        <li>Selecting Multiple Elements Using Query Selector All</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300 mb-2">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold"> What is the difference between innerHTML, innerText, and
+                    textContent ?
+
+                </div>
+                <div class="collapse-content text-sm">
+                    <ol>
+                        <li> innerHTML
+                            Reads or writes HTML content,</li>
+                        <li>innerText
+                            Reads or writes only visible text</li>
+                        <li>textContent
+                            Reads or writes all text content</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300 mb-2">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold"> What is event delegation in the DOM?
+                </div>
+                <div class="collapse-content text-sm">Event Delegation is a technique in JavaScript where a parent
+                    element handles events for its child elements,</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300 mb-2">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold"> What is event bubbling in the DOM?
+                </div>
+                <div class="collapse-content text-sm">The concept of event bubbling in JavaScript is that an event
+                    starts at the target element and then propagates to its ancestors in the DOM tree.</div>
+            </div>
+            <div class="collapse bg-base-100 border border-base-300 mb-2">
+                <input type="radio" name="my-accordion-1" checked="checked" />
+                <div class="collapse-title font-semibold"> How do you create, add, and remove elements using JavaScript?
+                </div>
+                <div class="collapse-content text-sm">
+                    <ul>
+                        <li>To create a new element, use document.createElement().</li>
+                        <li>To adding content document.body.appendChild(newElement);</li>
+                        <li>To remove newElement.remove()</li>
+                        <li>To replace replaceChild()</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
